@@ -1,8 +1,9 @@
 .wrapper {
-	padding-bottom: 200px;
+	padding-bottom: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+
 }
 
 
@@ -19,7 +20,7 @@
 
 	text-align: center;
 	font-size: 3em;
-	width: 40em;
+	width: 20em;
 	height: 6em;
 	position: absolute;
     top:0;
