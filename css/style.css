@@ -1,9 +1,25 @@
+.wrapper {
+	padding-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+.parent {
+
+}
+
+
+
+
+
 .container
 {
 
 	text-align: center;
-	font-size: 4em;
-	width: 18em;
+	font-size: 3em;
+	width: 40em;
 	height: 6em;
 	position: absolute;
     top:0;
@@ -12,4 +28,9 @@
     right: 0;
 
     margin: auto;
+
+		padding-bottom: 13em;
+
+font-family: 'IBM Plex Mono', monospace;
+
 }
