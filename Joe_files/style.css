@@ -16,8 +16,8 @@ body{padding:0;margin:0;overflow:hidden;background-color:#161616;color:#0bf;font
 
 .sep{position:relative;font-family:courier new,Courier,monospace;color:###b2bec3;text-align:center;animation:linksani 4.5s; font-size: 12pt;}
 
-.playlist{padding:0;margin:0;position:relative;left:-3%;top:50%;transform:translate(0%,0%);text-align:center;display:inline-block;animation:playlistbox 5s}a{color:#fff;transition:text-shadow .2s linear}a:visited{color:#fff}a:hover{text-shadow:0 0 5px #fff}@keyframes introanimation{0%{opacity:0}100%{opacity:1}}@keyframes particleani{0%{opacity:0}50%{opacity:0}100%{opacity:1}}@keyframes linksani{0%{top:-25px;opacity:0}50%{top:-25px;opacity:0}100%{top:0;opacity:1}}@keyframes playlistbox{0%{top:-25px;opacity:0}50%{top:-50px;opacity:0}100%{top:0;opacity:1}}
+.playlist{padding:0;margin:0;position:relative;left:-3%;top:50%;transform:translate(0%,0%);text-align:center;display:inline-block;animation:playlistbox 0s}a{color:#fff;transition:text-shadow .2s linear}a:visited{color:#fff}a:hover{text-shadow:0 0 5px #fff}@keyframes introanimation{0%{opacity:0}100%{opacity:1}}@keyframes particleani{0%{opacity:0}50%{opacity:0}100%{opacity:1}}@keyframes linksani{0%{top:-25px;opacity:0}50%{top:-25px;opacity:0}100%{top:0;opacity:1}}@keyframes playlistbox{0%{top:-25px;opacity:0}50%{top:-50px;opacity:0}100%{top:0;opacity:1}}
 
-.space{position:relative;padding-top: 15;padding-bottom: 15;font-family:courier new,Courier,monospace;color:###b2bec3;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 12pt;}
+.space{position:relative;padding-top: 15;padding-bottom: 15;font-family:courier new,Courier,monospace;color:#fdcb6e;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 12pt;}
 
 .intro{display:inline-block;position:relative;font-family:courier new,Courier,monospace;color:#00b894;text-align:center;animation:linksani 4s;display:inline-block; font-size: 12pt;}
