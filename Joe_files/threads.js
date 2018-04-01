@@ -18,7 +18,7 @@ pos = $attr("pos")
 
 	// bind attributes to buffers
 	$bind(pos, posBuf, 3)
-	
+
 	// set uniforms
 	$uni("time", time)
 	$uniV("resolution", [w,h])

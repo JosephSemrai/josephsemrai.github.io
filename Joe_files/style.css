@@ -21,3 +21,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#161616;color:#0bf;font
 .space{position:relative;padding-top: 15;padding-bottom: 15;font-family:courier new,Courier,monospace;color:#fdcb6e;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 12pt;}
 
 .intro{display:inline-block;position:relative;font-family:courier new,Courier,monospace;color:#00b894;text-align:center;animation:linksani 4s;display:inline-block; font-size: 12pt;}
+
+.sephomework{position:relative;display:block;font-family:courier new,Courier,monospace;color:###b2bec3;text-align:center;animation:linksani 4.5s; font-size: 12pt;}
+
+.return{position:relative;padding-top: 15;padding-bottom: 15;font-family:courier new,Courier,monospace;color:#fdcb6e;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 15pt;}
