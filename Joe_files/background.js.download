@@ -48,8 +48,8 @@ particlesJS("particles-js", {
 		"line_linked": {
 			"enable": true,
 			"distance": 150,
-			"color": "#1289A7",
-			"opacity": 0.7,
+			"color": "#81ecec",
+			"opacity": 0.4,
 			"width": 1
 		},
 		"move": {

@@ -10,7 +10,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#161616;color:#0bf;font
 
 .intro-text:hover{cursor:default}.container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center}
 
-.links{display:inline-block;position:relative;font-family:courier new,Courier,monospace;color:##fff;text-align:center;animation:linksani 4s;display:inline-block; font-size: 12pt;}
+.links{display:inline-block;position:relative;font-family:courier new,Courier,monospace;color:#fff;text-align:center;animation:linksani 4s;display:inline-block; font-size: 12pt;}
 
 .biggur{font-size:18pt}
 
