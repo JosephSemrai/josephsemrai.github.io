@@ -48,13 +48,13 @@ particlesJS("particles-js", {
 		"line_linked": {
 			"enable": true,
 			"distance": 150,
-			"color": "#81ecec",
+			"color": "#e17055",
 			"opacity": 0.4,
 			"width": 1
 		},
 		"move": {
 			"enable": true,
-			"speed": 6,
+			"speed": 2,
 			"direction": "none",
 			"random": false,
 			"straight": false,
@@ -89,7 +89,7 @@ particlesJS("particles-js", {
 			},
 			"bubble": {
 				"distance": 200,
-				"size": 25,
+				"size": 20,
 				"duration": 2,
 				"opacity": .5,
 				"speed": 1
