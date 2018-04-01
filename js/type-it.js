@@ -39,7 +39,7 @@
       breakLines: true,
       breakDelay: 150,
       deleteDelay: 750,
-      startDelay: 1800,
+      startDelay: 0,
       startDelete: false,
       loop: false,
       loopDelay: 750,
