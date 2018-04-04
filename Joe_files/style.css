@@ -6,7 +6,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#131619;color:#0bf;font
 #particles{width:100%;height:100%;position:absolute;overflow:hidden;top:0;left:0;animation:particleani 4s;z-index:-999}
 
 
-.intro-text{color:#0984e3;text-shadow:2px -2px 2px #000;font-size:80pt;animation:introanimation 4s;padding-bottom: 30;margin:0;text-align:middle;display:inline-block; font-size: 34pt;}
+.intro-text{color:#0984e3;text-shadow:2px -2px 2px #000;animation:introanimation 4s;padding-bottom: 30;margin:0;text-align:middle;display:inline-block; font-size: 29pt;}
 
 .intro-text:hover{cursor:default}.container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center}
 
