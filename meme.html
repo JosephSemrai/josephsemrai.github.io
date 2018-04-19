@@ -9,18 +9,30 @@
 <link rel="stylesheet" href="./Joe_files/style.css">
 <link href="./Joe_files/background.css" rel="stylesheet">
 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
-<style></style><style></style>
+<style>
+#playlist{
+		list-style: none;
+}
+#playlist li a{
+		color:white;
+		text-decoration: none;
+}
+#playlist .current-song a{
+		color:red;
+}
+
+
+
+</style>
 
 
 
 </head>
 <body data-gr-c-s-loaded="true" style="">
-
 <div id="particles-js"><canvas class="particles-js-canvas-el" width="958" height="945" style="width: 100%; height: 100%;"></canvas></div>
 	<script src="./Joe_files/particles.min.js"></script>
 	<script src="./Joe_files/background.js"></script>
 
-<audio autoplay="true" loop="true" onloadstart="this.volume=0.4;"><source src="flute.mp3" type="audio/mp3"></audio>
 <div class="container">
 <h1 class="intro-text">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
 <br>
@@ -33,8 +45,29 @@
 
 <a href="index.html">go back</a>
 
-</span>
+<br>
+<br>
+<br>
+<p>music selector for more relaxation | <a href="http://josephsemrai.com/">josephsemrai.com</a></p>
+<audio src="" controls id="audioPlayer">
+		browser no work i think
+</audio>
 
+
+	<!-- // made a list so it has to be off center to bother kai -->
+<ul id="playlist">
+		<li class="current-song"><a href="Music/flute.mp3">music to mii ears</a></li>
+		<li><a href="Music/krab.mp3">krab borg</a></li>
+		<li><a href="Music/steppingonthe.mp3">stepping on the REEEEEEEEE</a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="audioPlayer.js"></script>
+<script>
+		// and camelCase variables
+		// also good luck with the centering
+		// I SWEAR KAI DO NOT COPY MY CODE
+		audioPlayer();
+</script>
 
 
 
