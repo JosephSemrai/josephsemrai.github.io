@@ -5,7 +5,8 @@ settings = (function() {
 
 	// Default values for various user settings.
 	const defaultValues = {
-
+		"documentContent": "TextMap\n\tTurn tab-indented lists into text maps\n\t\tPress Tab to indent lines\n\t\tPress Shift + Tab to unindent lines\n\tDrag nodes to re-organize them\n\t",
+		"documentTitle": "Untitled Document"
 	};
 
 	// Used for converting settings values to actual font-familys.

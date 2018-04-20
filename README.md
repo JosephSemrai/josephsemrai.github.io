@@ -1,2 +1,2 @@
 # Website Test
-Simple website with "typing" effect and particles.js for the background.
+Simple website used for tests and as a hosting ground for a few things.
