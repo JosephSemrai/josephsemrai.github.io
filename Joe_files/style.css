@@ -8,7 +8,11 @@ body{padding:0;margin:0;overflow:hidden;background-color:#131619;color:#0bf;font
 
 .intro-text{width: 19%;color:#16a085;text-shadow:1px -1px 1px #000;animation:introanimation 4s;padding-bottom: 30;padding-top:30;margin:0;text-align:middle;display:inline-block; font-size: 29pt;}
 
-.intro-text:hover{cursor:default}.container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center}
+.intro-text:hover{cursor:default}
+
+.music{position:relative;left:10%;top:7%;transform:translate(-50%,-50%);width:19%;text-align:left;padding-top:7em;padding-left:5em}
+
+.container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center;}
 
 .links{display:inline-block;position:relative;font-family:courier new,Courier,monospace;color:#fff;text-align:center;animation:linksani 4s;display:inline-block; font-size: 12pt;}
 
@@ -26,10 +30,40 @@ body{padding:0;margin:0;overflow:hidden;background-color:#131619;color:#0bf;font
 
 .return{position:relative;padding-top: 15;padding-bottom: 15;font-family:courier new,Courier,monospace;color:#fdcb6e;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 15pt;}
 
+#playlist{
+		list-style: square;
+}
+#playlist li a{
+		color:white;
+		text-decoration: none;
+    font-size:11pt;
+
+}
+#playlist .current-song a{
+		color:red;
+    font-size:14pt;
+}
+
+
 #myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
