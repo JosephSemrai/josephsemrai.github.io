@@ -10,7 +10,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#2F5A9A;color:#0bf;font
 
 .intro-text:hover{cursor:default}
 
-.music{position:relative;left:10%;top:7%;transform:translate(-50%,-50%);width:40%;text-align:left;padding-top:14em;padding-left:36em}
+.music{transform:translate(-50%,-50%);width:40%;text-align:left;padding-top:24em;padding-left:2em;margin-left: auto;margin-right: auto;margin-top: auto;margin-bottom: auto;}
 
 .container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center;}
 
