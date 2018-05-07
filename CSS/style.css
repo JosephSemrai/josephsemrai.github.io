@@ -6,7 +6,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#2F5A9A;color:#0bf;font
 #particles{width:100%;height:100%;position:absolute;overflow:hidden;top:0;left:0;animation:particleani 4s;z-index:-999}
 
 
-.intro-text{width: 19%;animation:introanimation 4s; font-size: 29pt; padding-bottom: .5em;padding-top: .5em;min-height: 37.5px;min-width: 107.25px;}
+.intro-text{width: 19%;animation:introanimation 1s; font-size: 29pt; padding-bottom: .5em;padding-top: .5em;min-height: 37.5px;min-width: 107.25px;}
 
 .intro-text:hover{cursor:default}
 
@@ -14,17 +14,17 @@ body{padding:0;margin:0;overflow:hidden;background-color:#2F5A9A;color:#0bf;font
 
 .container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center;}
 
-.links{display:inline-block;position:relative;font-family: 'Comfortaa', cursive;color:#fff;text-align:center;animation:linksani 4s; font-size: 12pt;}
+.links{display:inline-block;position:relative;font-family: 'Comfortaa', cursive;color:#fff;text-align:center;animation:linksani 1.8s; font-size: 12pt;}
 
 .biggur{font-size:18pt}
 
-.sep{position:relative;font-family: 'Comfortaa', cursive;color:#b2bec3;text-align:center;animation:linksani 4.5s; font-size: 12pt;}
+.sep{position:relative;font-family: 'Comfortaa', cursive;color:#b2bec3;text-align:center;animation:linksani .5s; font-size: 12pt;}
 
 .playlist{padding:0;margin:0;position:relative;left:-3%;top:50%;transform:translate(0%,0%);text-align:center;display:inline-block;animation:playlistbox 0s}a{color:#fff;transition:text-shadow .2s linear}a:visited{color:#fff}a:hover{text-shadow:0 0 5px #fff}@keyframes introanimation{0%{opacity:0}100%{opacity:1}}@keyframes particleani{0%{opacity:0}50%{opacity:0}100%{opacity:1}}@keyframes linksani{0%{top:-25px;opacity:0}50%{top:-25px;opacity:0}100%{top:0;opacity:1}}@keyframes playlistbox{0%{top:-25px;opacity:0}50%{top:-50px;opacity:0}100%{top:0;opacity:1}}
 
-.space{position:relative;padding-top: 15;padding-bottom: 15;font-family: 'Comfortaa', cursive;color:#8e44ad;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 12pt;}
+.space{position:relative;padding-top: 15;padding-bottom: 15;font-family: 'Comfortaa', cursive;color:#C06C84;text-align:center;animation:linksani 1.15s;display:inline-block; font-size: 12pt;}
 
-.intro{display:inline-block;position:relative;font-family: 'Comfortaa', cursive;color:#ecf0f1;text-align:center;animation:linksani 4s;display:inline-block; font-size: 11pt;}
+.intro{display:inline-block;position:relative;font-family: 'Comfortaa', cursive;color:#ecf0f1;text-align:center;animation:linksani .7s;display:inline-block; font-size: 11pt;}
 
 .sephomework{position:relative;display:block;font-family: 'Comfortaa', cursive;color:###b2bec3;text-align:center;animation:linksani 4.5s; font-size: 12pt;}
 
