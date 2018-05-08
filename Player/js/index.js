@@ -40,7 +40,50 @@ jQuery(function ($) {
                         "name": "bill nye the science man",
                         "duration": "0:34",
                         "file": "nye"
-                    },
+                    },  {
+                                  "track": 6,
+                                  "name": "stepping on the beach",
+                                  "duration": "0:33",
+                                  "file": "steppingonthe"
+                              },
+                              {
+                                            "track": 7,
+                                            "name": "i'll make a man out of you but every s is emphasized",
+                                            "duration": "3:03",
+                                            "file": "sss"
+                                        },
+                                        {
+                                                      "track": 8,
+                                                      "name": "Ark Patrol - Let Go",
+                                                      "duration": "4:07",
+                                                      "file": "letgo"
+                                                  },
+                                                  {
+                                                                "track": 9,
+                                                                "name": "All Star but Bitter, Dismal, Mournful, Somber, Sorrowful",
+                                                                "duration": "3:25",
+                                                                "file": "star"
+                                                            },
+                                                            {
+                                                                          "track": 10,
+                                                                          "name": "Last",
+                                                                          "duration": "2:56",
+                                                                          "file": "older"
+                                                                      },
+                                                                      {
+                                                                                    "track": 11,
+                                                                                    "name": "Last",
+                                                                                    "duration": "2:56",
+                                                                                    "file": "older"
+                                                                                },
+                              {
+                                                                          "track": 12,
+                                                                          "name": "Krab Borg",
+                                                                          "duration": "2:11",
+                                                                          "file": "krab"
+                                                                      },
+
+
 
           ],
             buildPlaylist = $(tracks).each(function(key, value) {
