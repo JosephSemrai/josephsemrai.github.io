@@ -14,27 +14,29 @@ jQuery(function ($) {
             mediaPath = '../Music/',
             extension = '',
             tracks = [{
+
                 "track": 1,
+                "name": "Donkey Kong - Bonus Room Blitz",
+                "duration": "1:01",
+                "file": "kong"
+              },
+              {
+                "track": 2,
                 "name": "Lift Yourself",
                 "duration": "2:28",
                 "file": "scoop"
             }, {
-                "track": 2,
+                "track": 3,
                 "name": "doot E1M1",
                 "duration": "3:12",
                 "file": "doot"
             },{
-                "track": 3,
+                "track": 4,
                 "name": "Dimmadome",
                 "duration": "1:45",
                 "file": "dim"
             },
-            {
-                "track": 4,
-                "name": "Mário World",
-                "duration": "4:46",
-                "file": "kong"
-            },
+
             {
                 "track": 5,
                 "name": "Mário World",
