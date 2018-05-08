@@ -33,51 +33,57 @@ jQuery(function ($) {
                 "track": 4,
                 "name": "Mário World",
                 "duration": "4:46",
+                "file": "kong"
+            },
+            {
+                "track": 5,
+                "name": "Mário World",
+                "duration": "4:46",
                 "file": "marioworld"
             },
             {
-                        "track": 5,
+                        "track": 6,
                         "name": "bill nye the science man",
                         "duration": "0:34",
                         "file": "nye"
                     },  {
-                                  "track": 6,
+                                  "track": 7,
                                   "name": "stepping on the beach",
                                   "duration": "0:33",
                                   "file": "steppingonthe"
                               },
                               {
-                                            "track": 7,
+                                            "track": 8,
                                             "name": "i'll make a man out of you but every s is emphasized",
                                             "duration": "3:03",
                                             "file": "sss"
                                         },
                                         {
-                                                      "track": 8,
+                                                      "track": 9,
                                                       "name": "Ark Patrol - Let Go",
                                                       "duration": "4:07",
                                                       "file": "letgo"
                                                   },
                                                   {
-                                                                "track": 9,
+                                                                "track": 10,
                                                                 "name": "All Star but Bitter, Dismal, Mournful, Somber, Sorrowful",
                                                                 "duration": "3:25",
                                                                 "file": "star"
                                                             },
                                                             {
-                                                                          "track": 10,
-                                                                          "name": "Last",
-                                                                          "duration": "2:56",
-                                                                          "file": "older"
+                                                                          "track": 11,
+                                                                          "name": "Modern Jingle Bells",
+                                                                          "duration": "1:51",
+                                                                          "file": "jingle"
                                                                       },
                                                                       {
-                                                                                    "track": 11,
+                                                                                    "track": 12,
                                                                                     "name": "Last",
                                                                                     "duration": "2:56",
                                                                                     "file": "older"
                                                                                 },
                               {
-                                                                          "track": 12,
+                                                                          "track": 13,
                                                                           "name": "Krab Borg",
                                                                           "duration": "2:11",
                                                                           "file": "krab"
