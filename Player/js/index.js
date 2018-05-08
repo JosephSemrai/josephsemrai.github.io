@@ -26,13 +26,13 @@ jQuery(function ($) {
             },{
                 "track": 3,
                 "name": "Dimmadome",
-                "duration": "8:30",
+                "duration": "1:45",
                 "file": "dim"
             },
             {
                 "track": 4,
                 "name": "Mário World",
-                "duration": "8:30",
+                "duration": "4:46",
                 "file": "marioworld"
             },
             {
