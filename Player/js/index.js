@@ -4,6 +4,7 @@
 // kai i swear
 var loopValue = 1;
 var loop = false;
+var loopText = ""
 jQuery(function ($) {
     'use strict'
     var supportsAudio = !!document.createElement('audio').canPlayType;
@@ -19,10 +20,29 @@ jQuery(function ($) {
                 "file": "scoop"
             }, {
                 "track": 2,
-                "name": "woh woh woh",
+                "name": "doot E1M1",
+                "duration": "3:12",
+                "file": "doot"
+            },{
+                "track": 3,
+                "name": "Dimmadome",
                 "duration": "8:30",
-                "file": "BS_TF"
-            },],
+                "file": "dim"
+            },
+            {
+                "track": 4,
+                "name": "Mário World",
+                "duration": "8:30",
+                "file": "marioworld"
+            },
+            {
+                        "track": 5,
+                        "name": "bill nye the science man",
+                        "duration": "0:34",
+                        "file": "nye"
+                    },
+
+          ],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
                     trackName = value.name,
@@ -38,7 +58,7 @@ jQuery(function ($) {
             npTitle = $('#npTitle'),
             audio = $('#audio1').on('play', function () {
                 playing = true;
-                npAction.text('Now Playing...');
+                npAction.text('Now Playing...' + loopText);
             }).on('pause', function () {
                 playing = false;
                 npAction.text('Paused...');
@@ -59,12 +79,13 @@ jQuery(function ($) {
     loop = !loop;
     console.log("Loop enabled: " + loop)
     if (loop) {
-    npAction.text('Now Playing... with Loop on');
-}
-    if (loop) {
       loopValue = 0;
+      loopText = "Repeat on."
+      npAction.text('Now Playing...' + loopText);
     } else {
       loopValue = 1;
+      loopText = ""
+      npAction.text('Now Playing...' + loopText);
     }
 
             }),
