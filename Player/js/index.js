@@ -2,8 +2,8 @@
 // Playlist code from Codepen author Mark Hillard
 // Music to respective artists
 // kai i swear
-
-
+var loopValue = 1;
+var loop = false;
 jQuery(function ($) {
     'use strict'
     var supportsAudio = !!document.createElement('audio').canPlayType;
@@ -33,6 +33,7 @@ jQuery(function ($) {
                 $('#plList').append('<li><div class="plItem"><span class="plNum">' + trackNumber + '.</span><span class="plTitle">' + trackName + '</span><span class="plLength">' + trackDuration + '</span></div></li>');
             }),
             trackCount = tracks.length,
+
             npAction = $('#npAction'),
             npTitle = $('#npTitle'),
             audio = $('#audio1').on('play', function () {
@@ -43,8 +44,9 @@ jQuery(function ($) {
                 npAction.text('Paused...');
             }).on('ended', function () {
                 npAction.text('Paused...');
+
                 if ((index + 1) < trackCount) {
-                    index++;
+                    index = index + loopValue;
                     loadTrack(index);
                     audio.play();
                 } else {
@@ -53,6 +55,17 @@ jQuery(function ($) {
                     loadTrack(index);
                 }
             }).get(0),
+            btnLoop = $('#btnLoop').on('click', function () {
+    loop = !loop;
+    console.log("Loop enabled: " + loop)
+
+    if (loop) {
+      loopValue = 0;
+    } else {
+      loopValue = 1;
+    }
+
+            }),
             btnPrev = $('#btnPrev').on('click', function () {
                 if ((index - 1) > -1) {
                     index--;
