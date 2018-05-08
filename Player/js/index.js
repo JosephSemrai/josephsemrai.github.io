@@ -58,7 +58,9 @@ jQuery(function ($) {
             btnLoop = $('#btnLoop').on('click', function () {
     loop = !loop;
     console.log("Loop enabled: " + loop)
-
+    if (loop) {
+    npAction.text('Now Playing... with Loop on');
+}
     if (loop) {
       loopValue = 0;
     } else {

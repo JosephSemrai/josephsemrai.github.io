@@ -15,6 +15,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#2F5A9A;color:#0bf;font
 .container{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:40%;text-align:center;}
 
 .links{display:inline-block;position:relative;font-family: 'Comfortaa', cursive;color:#fff;text-align:center;animation:linksani 1.8s; font-size: 12pt;}
+.bigtext{display:inline-block;position:relative;font-family: 'Comfortaa', cursive;color:#fff;text-align:center;animation:linksani 1.8s; font-size: 15pt;}
 
 .biggur{font-size:18pt}
 
