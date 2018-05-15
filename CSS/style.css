@@ -34,6 +34,9 @@ body{padding:0;margin:0;overflow:hidden;background-color:#2F5A9A;color:#0bf;font
 .tab{width:35%;display:block;margin-left: auto;margin-right: auto;-webkit-filter: invert(100%);
 filter: invert(100%);}
 
+.background {
+	filter: blur(5px);
+}
 
 
 
