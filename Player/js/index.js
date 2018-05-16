@@ -90,9 +90,19 @@ jQuery(function ($) {
                                                                           "duration": "2:11",
                                                                           "file": "krab"
                                                                       },
+{
+                                                                          "track": 14,
+                                                                          "name": "gas - pop 7 (yw cole)",
+                                                                          "duration": "14:35",
+                                                                          "file": "pop7"
+                                                                      },
 
-
-
+                {
+                      "track": 15,
+                      "name": "ra ra rasputin",
+                      "duration": "4:03",
+                      "file": "rasputin"
+                },
           ],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
