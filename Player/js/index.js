@@ -16,18 +16,18 @@ jQuery(function ($) {
             tracks = [{
 
                 "track": 1,
-                "name": "Donkey Kong - Bonus Room Blitz",
+                "name": "(S) Donkey Kong - Bonus Room Blitz",
                 "duration": "1:01",
                 "file": "kong"
               },
               {
                 "track": 2,
-                "name": "Lift Yourself",
+                "name": "(S) Lift Yourself",
                 "duration": "2:28",
                 "file": "scoop"
             }, {
                 "track": 3,
-                "name": "doot E1M1",
+                "name": "(S) doot E1M1",
                 "duration": "3:12",
                 "file": "doot"
             },{
@@ -39,7 +39,7 @@ jQuery(function ($) {
 
             {
                 "track": 5,
-                "name": "Mário World",
+                "name": "(S) Mário World",
                 "duration": "4:46",
                 "file": "marioworld"
             },
@@ -56,13 +56,13 @@ jQuery(function ($) {
                               },
                               {
                                             "track": 8,
-                                            "name": "i'll make a man out of you but every s is emphasized",
+                                            "name": "(S) i'll make a man out of you but every s is emphasized",
                                             "duration": "3:03",
                                             "file": "sss"
                                         },
                                         {
                                                       "track": 9,
-                                                      "name": "Ark Patrol - Let Go",
+                                                      "name": "(S) Ark Patrol - Let Go",
                                                       "duration": "4:07",
                                                       "file": "letgo"
                                                   },
@@ -80,7 +80,7 @@ jQuery(function ($) {
                                                                       },
                                                                       {
                                                                                     "track": 12,
-                                                                                    "name": "Last",
+                                                                                    "name": "(S) Last",
                                                                                     "duration": "2:56",
                                                                                     "file": "older"
                                                                                 },
@@ -92,14 +92,20 @@ jQuery(function ($) {
                                                                       },
 {
                                                                           "track": 14,
-                                                                          "name": "gas - pop 7 (yw cole)",
+                                                                          "name": "(S) gas - pop 7 (yw cole)",
                                                                           "duration": "14:35",
                                                                           "file": "pop7"
                                                                       },
 
                 {
                       "track": 15,
-                      "name": "ra ra rasputin",
+                      "name": "(S) ra ra rasputin",
+                      "duration": "4:03",
+                      "file": "rasputin"
+                },
+                {
+                      "track": 16,
+                      "name": "(S) running in the 90's - need to finish that essay in 4 minutes?",
                       "duration": "4:03",
                       "file": "rasputin"
                 },
