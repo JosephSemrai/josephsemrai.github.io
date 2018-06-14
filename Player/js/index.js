@@ -108,7 +108,13 @@ jQuery(function ($) {
                       "name": "(S) running in the 90's - need to finish that essay in 4 minutes?",
                       "duration": "4:03",
                       "file": "rasputin"
+                },{
+                    "track": 17,
+                    "name": "David's Mario World Loop",
+                    "duration": "3:19",
+                    "file": "loop"
                 },
+
           ],
             buildPlaylist = $(tracks).each(function(key, value) {
                 var trackNumber = value.track,
