@@ -138,7 +138,7 @@ jQuery(function ($) {
             }).on('ended', function () {
                 npAction.text('Paused...');
 
-                if ((index + 1) < trackCount) {
+                if ((index + 1) < trackCount || loopValue == 0) {
                     index = index + loopValue;
                     loadTrack(index);
                     audio.play();
