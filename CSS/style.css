@@ -29,7 +29,7 @@ body{padding:0;margin:0;overflow:hidden;background-color:#2F5A9A;color:#0bf;font
 
 .sephomework{position:relative;display:block;font-family: 'Comfortaa', cursive;color:###b2bec3;text-align:center;animation:linksani 4.5s; font-size: 12pt;}
 
-.return{position:relative;padding-top: 15;padding-bottom: 15;font-family: 'Comfortaa', cursive;color:#fdcb6e;text-align:center;animation:linksani 4.5s;display:inline-block; font-size: 15pt;}
+.return{position:relative;padding-top: 15;padding-bottom: 15;font-family: 'Comfortaa', cursive;color:#fdcb6e;text-align:center;animation:linksani .5s;display:inline-block; font-size: 15pt;}
 
 .tab{width:35%;display:block;margin-left: auto;margin-right: auto;-webkit-filter: invert(100%);
 filter: invert(100%);}
