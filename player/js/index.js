@@ -1,6 +1,6 @@
 
 // Playlist code from Codepen author Mark Hillard
-// Music to respective artists
+// music to respective artists
 // kai i swear
 var loopValue = 1;
 var loop = false;
@@ -11,7 +11,7 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
             playing = false,
-            mediaPath = '../Music/',
+            mediaPath = '../music/',
             extension = '',
             tracks = [{
 
