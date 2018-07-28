@@ -2,6 +2,21 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.js"></script>
+	<script type="text/javascript">
+	    $(function () {
+	        if (/iPhone|iPod|iPad/.test(navigator.userAgent))
+	            $('iframe').wrap(function () {
+	                var $this = $(this);
+	                return $('<div />').css({
+	                    width: $this.attr('width'),
+	                    height: $this.attr('height'),
+	                    overflow: 'scroll',
+	                    '-webkit-overflow-scrolling': 'touch'
+	                });
+	            });
+	    })
+	</script>
     <title>Joseph Semrai | Notes</title>
 
     <meta name="viewport" content="initial-scale=0.9,maximum-scale=0.9">
@@ -10,8 +25,10 @@
     <link rel="stylesheet" href="../../CSS/style.css">
     <link href="../../CSS/background.css" rel="stylesheet">
     <link rel='shortcut icon' href='../../favicon.ico' type='image/x-icon' />
-    <style></style>
-    <style></style>
+
+
+
+    
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116822714-1"></script>
@@ -60,8 +77,9 @@
 
 
 
+        <iframe id = "iFramePDF" src= "AnnotatedHumanGeoSummerAssignment.pdf" height="60%" width="40%" ></iframe>
 
-        <embed src="AnnotatedHumanGeoSummerAssignment.pdf" width="80%" height="60%"/>
+
      
 
 
