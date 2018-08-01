@@ -9,13 +9,12 @@
   <!-- meta information -->
   <meta name="viewport" content="initial-scale=0.9,maximum-scale=0.9">
   <meta name="author" content="Joseph Semrai">
-  <meta name="keywords" content="Joseph,Semrai,website">
-  <meta name="description" content="Joseph Semrai - Contact Links and portfolio. For public use, homework planner, shader tests, and TextMindMap hosting ground." />
+  <meta name="keywords" content="Joseph,Semrai,website,Joseph Semrai">
+  <meta name="description" content="Joseph Semrai - Contact Links and portfolio. For public use, school resources for those enrolled at Martin County High School and Hidden Oaks Middle School.">
 
-  <!-- links -->
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link href="./CSS/background.css" rel="stylesheet">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'>
 
   <!-- analytic stuff -->
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
@@ -32,97 +31,88 @@
 </head>
 
 
+<!-- background video -->
 
 <body data-gr-c-s-loaded="true">
+  <div>
+    <video class="background" autoplay muted loop id="myVideo">
+      <source id="vsrc" /> Please update your browser.
+    </video>
+  </div>
 
-  <video class="background" autoplay muted loop id="myVideo">
-    <source src="images/water.mp4" type="video/mp4">
-</video>
+  <script>
+    document.getElementById("vsrc").src = "images/" + Math.floor((Math.random() * 4) + 1) + ".mp4";
+  </script>
 
 
 
-
-  <script src="./JS/particles.min.js"></script>
-  <script src="./JS/background.js"></script>
-  <script type="text/javascript" src="./node.js/node_modules/rythm.js/rythm.js"></script>
-
+  <!-- logo -->
   <div class="container">
-
-
-    <div class="rythm-bass">
-      <a href="images/videoplayer.html"> <img class="intro-text" src="images/Logo.png" alt="logo" /> </a>
-
-    </div>
-
-
-    <span class="intro"> I don't know why you're here but here's some stuff </a> </span>
+    <a href="images/videoplayer.html">
+      <img class="intro-text" src="images/Logo.png" alt="logo" /> </a>
     <br>
 
-    <span class="space"> | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ | </a> </span>
 
+    <!-- introduction -->
+    <span class="intro"> I don't know why you're here but here's some stuff </a>
+    </span>
+    <br>
 
+    <span class="space"> | ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ | </a>
+    </span>
+
+    <!-- hyperlinks -->
     <br>
     <span class="links">
 
 
 
-  <figure>
-    <a href="/school/">
- <img class="tab" src="glyphs/file.svg" alt="school resources"> </a>
-  <figcaption> school resources </figcaption>
- </figure>
+      <figure>
+        <a href="/school/">
+          <img class="tab" src="glyphs/file.svg" alt="school resources"> </a>
+        <figcaption> school resources </figcaption>
+      </figure>
 
- <figure>
-   <a href="/filemanager/">
- <img class="tab" src="glyphs/cool.svg" alt="stuff"> </a>
- <figcaption> file repo </figcaption>
- </figure>
+      <figure>
+        <a href="/filemanager/">
+          <img class="tab" src="glyphs/cool.svg" alt="stuff"> </a>
+        <figcaption> file repo </figcaption>
+      </figure>
 
- <figure>
-   <a href="/player/">
- <img class="tab" src="glyphs/music.svg" alt="stuff"> </a>
- <figcaption> study music </figcaption>
- </figure>
-
-
-<figure>
-  <a href="/chat/">
-  <img class="tab" src="glyphs/sms.svg" alt="contact"></a>
-<figcaption> chat </figcaption>
-</figure>
-
-</figure>
-
-<figure>
-  <a href="/emulation/">
-  <img class="tab" src="glyphs/dice.svg" alt="contact"></a>
-<figcaption> games </figcaption>
-</figure>
+      <figure>
+        <a href="/player/">
+          <img class="tab" src="glyphs/music.svg" alt="stuff"> </a>
+        <figcaption> study music </figcaption>
+      </figure>
 
 
+      <figure>
+        <a href="/chat/">
+          <img class="tab" src="glyphs/sms.svg" alt="contact">
+        </a>
+        <figcaption> chat </figcaption>
+      </figure>
 
-</figure>
-</span> <br><br>
-    <!-- <a href="./feature/thanos.html"><span class = "bigtext"><u>spared by thanos?</u></p1></a> -->
+      </figure>
+
+      <figure>
+        <a href="/emulation/">
+          <img class="tab" src="glyphs/dice.svg" alt="contact">
+        </a>
+        <figcaption> games </figcaption>
+      </figure>
 
 
-    <!-- </div> -->
-    <br>
+
+      </figure>
+    </span>
+
 
   </div>
-  <div id="particles">
-    <script src="./JS/particles.min.js"></script>
-    <script src="./JS/background.js"></script>
-    <canvas class="particles-js-canvas-el" width="1920" height="910" style="width: 100%; height: 100%;"></canvas></div>
-  <script src="./JS/bootstrap.min.js"></script>
-  <script src="./JS/jquery.min.js"></script>
-  <script src="./JS/background.js"></script>
 
 
 
-  <script id="tmpScript">
-    if (typeof window._sharedData !== 'undefined') localStorage.setItem('window._sharedData', JSON.stringify(window._sharedData))
-  </script>
-</body>
+
+
 
 </html>
