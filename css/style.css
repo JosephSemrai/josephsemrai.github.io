@@ -1,10 +1,3 @@
-@font-face {
-  font-family: geo sans;
-  font-style: normal;
-  font-weight: 300;
-  src: local('GeosansLight'), local('GeosansLight'), url(GeosansLight.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215
-}
 
 body {
   padding: 0;
@@ -12,7 +5,7 @@ body {
   overflow: hidden;
   background-color: #000000;
   color: #0bf;
-  font-family: geo sans, sans-serif;
+  font-family: 'Comfortaa', cursive;
   user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none
@@ -29,14 +22,6 @@ body {
   z-index: -999
 }
 
-.intro-text {
-  animation: introanimation 1s;
-  padding-bottom: 1em;
-}
-
-.intro-text:hover {
-  cursor: default
-}
 
 .music {
   transform: translate(-50%, -50%);
@@ -59,24 +44,54 @@ body {
   text-align: center;
 }
 
+.bigtext {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1em;
+  font-family: 'Comfortaa', cursive;
+  color: #FFF;
+  text-align: center;
+  animation: linksani .6s;
+
+}
+
+.intro {
+  display: inline-block;
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+  color: #ecf0f1;
+  text-align: center;
+  animation: linksani .6s forwards;
+  animation-delay: .2s;
+  display: inline-block;
+  font-size: 17px;
+  opacity: 0;
+}
+
+.space {
+  position: relative;
+  padding-top: 15;
+  padding-bottom: 15;
+  font-family: 'Comfortaa', cursive;
+  color: #C06C84;
+  text-align: center;
+  animation: linksani .6s forwards;
+  animation-delay: .3s;
+  display: inline-block;
+  font-size: 12pt;
+  opacity: 0;
+}
+
 .links {
   display: inline-block;
   position: relative;
   font-family: 'Comfortaa', cursive;
   color: #fff;
   text-align: center;
-  animation: linksani 1.8s;
+  animation: linksani .6s forwards;
+  animation-delay: .5s;
   font-size: 12pt;
-}
-
-.bigtext {
-  display: inline-block;
-  position: relative;
-  font-family: 'Comfortaa', cursive;
-  color: #fff;
-  text-align: center;
-  animation: linksani 1.8s;
-  font-size: 15pt;
+  opacity: 0;
 }
 
 .biggur {
@@ -88,7 +103,7 @@ body {
   font-family: 'Comfortaa', cursive;
   color: #b2bec3;
   text-align: center;
-  animation: linksani .5s;
+  animation: linksani .5s forwards;
   font-size: 12pt;
 }
 
@@ -150,7 +165,7 @@ a:hover {
   100% {
     top: 0;
     opacity: 1
-  }
+  } 
 }
 
 @keyframes playlistbox {
@@ -168,38 +183,6 @@ a:hover {
   }
 }
 
-.space {
-  position: relative;
-  padding-top: 15;
-  padding-bottom: 15;
-  font-family: 'Comfortaa', cursive;
-  color: #C06C84;
-  text-align: center;
-  animation: linksani 1.15s;
-  display: inline-block;
-  font-size: 12pt;
-}
-
-.intro {
-  display: inline-block;
-  position: relative;
-  font-family: 'Comfortaa', cursive;
-  color: #ecf0f1;
-  text-align: center;
-  animation: linksani .7s;
-  display: inline-block;
-  font-size: 11pt;
-}
-
-.sephomework {
-  position: relative;
-  display: block;
-  font-family: 'Comfortaa', cursive;
-  color: #b2bec3;
-  text-align: center;
-  animation: linksani 4.5s;
-  font-size: 12pt;
-}
 
 .return {
   position: relative;
@@ -224,21 +207,6 @@ a:hover {
 
 .background {
   filter: blur(5px);
-}
-
-#playlist {
-  list-style: square;
-}
-
-#playlist li a {
-  color: white;
-  text-decoration: none;
-  font-size: 11pt;
-}
-
-#playlist .current-song a {
-  color: red;
-  font-size: 14pt;
 }
 
 #myVideo {
