@@ -37,15 +37,15 @@
 <!-- background video -->
 
 <body data-gr-c-s-loaded="true">
-  <div>
-    <video class="background" autoplay muted loop id="myVideo">
-      <source id="vsrc" /> Please update your browser.
-    </video>
-  </div>
+    <div>
+        <video class="background" autoplay loop muted playsinline>
+            <source id="vsrc" /> Please update your browser.
+        </video>
+    </div>
 
-  <script>
-    document.getElementById("vsrc").src = "images/" + Math.floor((Math.random() * 4) + 1) + ".mp4";
-  </script>
+    <script>
+        document.getElementById("vsrc").src = "../../images/" + Math.floor((Math.random() * 4) + 1) + ".mp4";
+    </script>
 
 
 
