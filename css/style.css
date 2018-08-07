@@ -219,6 +219,15 @@ a:hover {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+.tabsmall {
+  width: 6em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
 
 .background {
   filter: blur(5px);
