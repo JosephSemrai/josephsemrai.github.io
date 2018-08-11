@@ -46,6 +46,14 @@ body {
   padding-top: 2em;
 }
 
+.corner {
+  position: absolute;
+  z-index: 10;
+  left:0%;
+  width:25em;
+  background-color: transparent;
+}
+
 .bigtext {
   display: inline-block;
   position: relative;
