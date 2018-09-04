@@ -187,6 +187,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
+		font-size: 50em;s
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.1rem;
@@ -1024,6 +1025,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin-bottom: .25rem;
 	}
 
 		input[type="submit"]:hover,
