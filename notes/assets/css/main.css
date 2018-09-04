@@ -29,6 +29,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.imglogo {
+	height: 100%; width: 100%; object-fit: contain;
+	max-width:40em;
+}
+
+
 body {
 	line-height: 1;
 }
