@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -44,7 +44,23 @@ body {
   text-align: center;
   padding-bottom: 2em;
   padding-top: 2em;
+  z-index: 2;
 }
+.containerbackground{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height:85%;
+  text-align: center;
+  background-color: black;
+  opacity:0.6;
+  z-index: 1;
+  border-radius: 20px;
+  
+}
+
 
 .corner {
   position: absolute;
