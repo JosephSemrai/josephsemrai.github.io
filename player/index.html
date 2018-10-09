@@ -23,7 +23,7 @@
 html,body {
 -webkit-font-smoothing:antialiased;
 -webkit-text-size-adjust:100%;
-background-color:#36465F;
+
 color:#fff;
 font-size:105%;
 font-family:"Oxygen", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,6 +37,7 @@ padding:1rem 0;
 -webkit-tap-highlight-color:rgba(0,0,0,0);
 -webkit-tap-highlight-color:transparent;
 }
+
 
 
 /* Setup
@@ -63,6 +64,29 @@ p a,p a:visited { line-height:inherit; }
 .left { float:left; }
 .right { float:right; }
 .center { text-align:center; }
+.containerbackground{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height:300%;
+  text-align: center;
+  background-color: black;
+  opacity:0.6;
+  z-index: -1;
+  border-radius: 20p
+}
+.background {
+  filter: blur(8px);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2
+  
+}
 
 
 /* Audio Player Styles
@@ -153,7 +177,7 @@ line-height:.8;
 margin:0 20px 20px;
 padding:5px 10px;
 text-decoration:none;
-transition:background .3s ease;
+transition: background .3s ease;
 width:35px;
 }
 
@@ -226,7 +250,19 @@ filter: invert(100%);}
 
 <body>
 
+<div class="containerbackground"></div>
   <div class="container">
+      <div>
+      <video class="background" autoplay loop muted playsinline>
+          <source id="vsrc" /> Please update your browser.
+      </video>
+  </div>
+  
+  
+
+  <script>
+      document.getElementById("vsrc").src = "../../images/" + Math.floor((Math.random() * 4) + 1) + ".mp4";
+  </script>
     <figure>
       <a href="../">
     <img class="tab" src="../glyphs/home.svg" alt="stuff"> </a>
@@ -247,7 +283,7 @@ filter: invert(100%);}
                     <a id="btnNext">&rarr;</a>
                     <a id="btnLoop">⟳</a>
                 </div>
-                <p style="text-align:center;"><img src="../images/dance.gif" alt="Logo" height="100" width="100"></p>
+                <!-- <p style="text-align:center;"><img src="../images/dance.gif" alt="Logo" height="100" width="100"></p> -->
 
             </div>
             <div id="plwrap">
