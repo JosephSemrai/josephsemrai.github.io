@@ -14,10 +14,12 @@
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/asteroids.css">
   <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'>
 
   <!-- scripts -->
   <script src="jquery-3.3.1.min.js"></script>
+  <script src="JS/asteroids.js"></script>
   <!-- analytic stuff -->
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
@@ -33,17 +35,15 @@
   </script>
 </head>
 
-<img src="https://grabify.link/9G7B08">
 
-
-<!-- background video -->
+<!-- background video --><canvas id="canvas"></canvas>
 
 <body data-gr-c-s-loaded="true">
-  <div>
+  <!-- <div>
       <video class="background" autoplay loop muted playsinline>
           <source id="vsrc" src="images/loop.mp4" /> Get a better browser (Most Chrome versions, 30+)
       </video>
-  </div>
+  </div> -->
 
   <!-- <img class="background" source id = "vsrc"> -->
 
@@ -61,7 +61,7 @@
 
 
     <!-- introduction -->
-    <span class="intro"> rise n grind, let's get this bread </a>
+    <span class="intro"> use arrow keys and space to do stuff </a>
     </span>
     <br>
 
@@ -75,7 +75,7 @@
 
 
 
-      <figure>
+      <figure class="linkfigure">
         <a href="/school/">
           <img class="tab" src="glyphs/file.svg" alt="school resources"> </a>
         <figcaption> school resources </figcaption>
@@ -88,7 +88,7 @@
       </figure> -->
 
 
-      <figure>
+      <figure class="linkfigure">
         <a href="/chat/">
           <img class="tab" src="glyphs/sms.svg" alt="contact">
         </a>
@@ -97,7 +97,7 @@
 
       </figure>
 
-      <figure>
+      <figure class="linkfigure">
         <a href="/notes/">
           <img class="tab" src="glyphs/pencil.svg" alt="notes">
         </a>
@@ -110,7 +110,7 @@
 
   </div>
 
-  <div class = "containerbackground"></div>
+  <!-- <div class = "containerbackground"></div> -->
 
 
 
