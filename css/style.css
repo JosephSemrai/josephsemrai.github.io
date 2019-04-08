@@ -117,7 +117,7 @@ body {
   padding-top: 15;
   padding-bottom: 15;
   font-family: 'Comfortaa', cursive;
-  color: #C06C84;
+  color: rgb(233, 74, 0);
   text-align: center;
   animation: linksani .6s forwards;
   animation-delay: .3s;
