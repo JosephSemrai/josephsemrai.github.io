@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hi, I&#39;m Joseph Semrai on Joseph Semrai</title>
+    <link>/</link>
+    <description>Recent content in Hi, I&#39;m Joseph Semrai on Joseph Semrai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Joseph Semrai</copyright>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lol idk</title>
+      <link>/posts/hello/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello/</guid>
+      <description>okay dude</description>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>/showcase/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>i&amp;rsquo;ll put shit here later Regular Text
+ Dude, this Hummer kicks ass.
+ smaller shit did you know? code blocks exist
+// JS code  const shittyReactComponent = () =&amp;gt; { const [lol, setLol] = useState(false) return ( lol ? &amp;lt;p&amp;gt;lol&amp;lt;/p&amp;gt; : &amp;lt;h1&amp;gt;what&amp;lt;/h1&amp;gt; ) } this page is just a stream of consciousness wew
+ wew wew  wew wew  wew     wew  </description>
+    </item>
+    
+  </channel>
+</rss>
