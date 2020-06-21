@@ -7,4 +7,4 @@ description = "i hate u adam"
 
 # ok dude
 
-go to josephsemrai.com/**insert paper code here**
+go to josephsemrai.com/**insert paper code here** when it's time
