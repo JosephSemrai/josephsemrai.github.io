@@ -1,5 +1,5 @@
 +++
-title = "lol idk"
+title = "papers"
 date = "2020-06-21"
 author = "Joe"
 description = "i hate u adam"
